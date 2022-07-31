@@ -770,11 +770,14 @@ html {
 .teams__heading {
   padding-bottom: 3rem;
   color: #fff;
-  font-size: 32px;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 100;
 }
 @media only screen and (min-width: 50em) {
   .teams__heading {
-    font-size: 42px;
+    font-size: 24px;
   }
 }
 
@@ -797,6 +800,7 @@ html {
 }
 .team__content {
   max-width: 500px;
+  line-height: 1.5;
 }
 
 @media only screen and (min-width: 50em) {
