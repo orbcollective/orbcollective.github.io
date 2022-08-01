@@ -678,7 +678,7 @@ html {
 }
 
 .hero {
-  padding: 1rem;
+  padding: 1rem 0;
   text-align: center;
 }
 @media only screen and (min-width: 40em) {
@@ -865,7 +865,7 @@ html {
 .teams__heading {
   padding-bottom: 5rem;
   color: #fff;
-  font-size: 20px;
+  font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 4px;
   font-weight: 100;
