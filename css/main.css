@@ -748,6 +748,13 @@ html {
   padding: 0.5rem;
   height: 140px;
   width: 140px;
+  transform: scale(0.75);
+  transition: 0.3s all ease-out;
+}
+@media only screen and (min-width: 50em) {
+  .balancer__logo-container {
+    transform: scale(1);
+  }
 }
 
 .mission {
