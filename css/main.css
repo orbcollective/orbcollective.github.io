@@ -705,11 +705,16 @@ html {
   }
 }
 .hero__graphic {
-  padding: 3rem 0 0;
+  padding: 4rem 0 2rem;
   width: 100%;
   height: auto;
   max-width: 1160px;
   transition: 0.3s all ease-out;
+}
+@media only screen and (min-width: 50em) {
+  .hero__graphic {
+    padding: 3rem 0 0;
+  }
 }
 @media only screen and (max-height: 800px) {
   .hero__graphic {
@@ -734,10 +739,15 @@ html {
 }
 
 .balancer {
-  margin: 2rem 0;
+  margin: 1rem 0;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+@media only screen and (min-width: 50em) {
+  .balancer {
+    margin: 2rem 0;
+  }
 }
 .balancer__logo-container {
   background: linear-gradient(223.92deg, #333333 1.75%, #000000 96.43%);
@@ -748,7 +758,7 @@ html {
   padding: 0.5rem;
   height: 140px;
   width: 140px;
-  transform: scale(0.75);
+  transform: scale(0.5);
   transition: 0.3s all ease-out;
 }
 @media only screen and (min-width: 50em) {
@@ -838,18 +848,18 @@ html {
   }
 }
 .vision__container {
-  padding: 10rem 1rem;
-  background: url(../img/vision-bg.png) center center no-repeat;
+  padding: 5rem 1rem;
   background-size: 140%;
   width: 100%;
 }
 @media only screen and (min-width: 75em) {
   .vision__container {
     background-size: 85%;
+    padding: 5rem 1rem;
   }
 }
 .vision__content-container {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.9);
   height: 100%;
   width: 100%;
   max-width: 1280px;
@@ -858,15 +868,28 @@ html {
   padding: 2rem 1rem;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.05);
+  background: url(../img/vision-bg2.png) center center no-repeat;
+  position: relative;
 }
 @media only screen and (min-width: 50em) {
   .vision__content-container {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.9);
     display: flex;
     align-items: center;
     gap: 36px;
     padding: 6rem 3rem;
   }
+}
+@media only screen and (min-width: 75em) {
+  .vision__content-container {
+    padding: 6rem;
+  }
+}
+.vision__glass {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(20px);
 }
 .vision__col {
   flex-grow: 1;
@@ -889,7 +912,7 @@ html {
   width: 100%;
   margin: 0 auto;
   overflow: hidden;
-  text-align: left;
+  text-align: center;
 }
 @media only screen and (min-width: 50em) {
   .teams {
@@ -898,7 +921,7 @@ html {
   }
 }
 .teams__heading {
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
   color: #fff;
   font-size: 16px;
   text-transform: uppercase;
@@ -907,12 +930,13 @@ html {
 }
 @media only screen and (min-width: 50em) {
   .teams__heading {
+    padding-bottom: 5rem;
     font-size: 24px;
   }
 }
 
 .team {
-  text-align: left;
+  text-align: center;
   padding-bottom: 4rem;
 }
 @media only screen and (min-width: 50em) {
@@ -923,6 +947,7 @@ html {
     grid-column-gap: 42px;
     grid-row-gap: 0px;
     align-items: center;
+    text-align: left;
   }
 }
 .team__graphic {
@@ -937,6 +962,7 @@ html {
 .team__content {
   max-width: 500px;
   line-height: 1.5;
+  margin: 0 auto;
 }
 
 @media only screen and (min-width: 50em) {
