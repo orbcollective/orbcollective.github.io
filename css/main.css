@@ -709,7 +709,7 @@ html {
   padding: 3rem 0 0;
   width: 100%;
   height: auto;
-  max-width: 1400px;
+  max-width: 1280px;
 }
 .hero__h1 {
   line-height: 1.2;
@@ -815,7 +815,7 @@ html {
 }
 @media only screen and (min-width: 75em) {
   .vision__container {
-    background-size: 65%;
+    background-size: 75%;
   }
 }
 .vision__content-container {
@@ -855,7 +855,7 @@ html {
 
 .teams {
   padding: 1rem;
-  max-width: 1200px;
+  max-width: 1000px;
   width: 100%;
   margin: 0 auto;
   overflow: hidden;
@@ -901,7 +901,7 @@ html {
 }
 @media only screen and (min-width: 50em) {
   .team__graphic {
-    max-width: 460px;
+    max-width: 420px;
   }
 }
 .team__content {
