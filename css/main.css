@@ -611,6 +611,45 @@ body {
   margin: 0 0 var(--space-unit) 0;
 }
 
+.fade-in--1 {
+  animation: fade-in 0.75s ease-in-out 0.03s both;
+}
+.fade-in--2 {
+  animation: fade-in 0.75s ease-in-out 0.06s both;
+}
+.fade-in--3 {
+  animation: fade-in 0.75s ease-in-out 0.09s both;
+}
+.fade-in--4 {
+  animation: fade-in 0.75s ease-in-out 0.12s both;
+}
+.fade-in--5 {
+  animation: fade-in 0.75s ease-in-out 0.15s both;
+}
+.fade-in--6 {
+  animation: fade-in 0.75s ease-in-out 0.18s both;
+}
+.fade-in--7 {
+  animation: fade-in 0.75s ease-in-out 0.21s both;
+}
+.fade-in--8 {
+  animation: fade-in 0.75s ease-in-out 0.24s both;
+}
+.fade-in--9 {
+  animation: fade-in 0.75s ease-in-out 0.27s both;
+}
+.fade-in--10 {
+  animation: fade-in 0.75s ease-in-out 0.3s both;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 html {
   box-sizing: border-box;
 }
@@ -635,6 +674,7 @@ html {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 600;
+  color: #fff;
 }
 
 .hero {
@@ -898,6 +938,6 @@ html {
 
 html {
   background-color: #111;
-  color: #ccc;
+  color: #eee;
   font-family: "Inter", sans-serif;
 }
