@@ -701,7 +701,6 @@ html {
 }
 @media (orientation: landscape) {
   .hero__content {
-    height: calc(100vh - 160px);
     gap: 32px;
   }
 }
@@ -710,6 +709,12 @@ html {
   width: 100%;
   height: auto;
   max-width: 1160px;
+  transition: 0.3s all ease-out;
+}
+@media only screen and (max-height: 800px) {
+  .hero__graphic {
+    max-width: 800px;
+  }
 }
 .hero__h1 {
   line-height: 1.2;
