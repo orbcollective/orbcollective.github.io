@@ -715,6 +715,11 @@ html {
   line-height: 1.2;
   color: #fff;
   font-size: 32px;
+  background: linear-gradient(269.49deg, #999 -4.99%, #FFFFFF 53.08%, #999 104.46%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 @media only screen and (min-width: 50em) {
   .hero__h1 {
