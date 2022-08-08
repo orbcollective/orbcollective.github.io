@@ -669,6 +669,12 @@ html {
 .nav__container {
   display: flex;
   gap: 20px;
+  justify-content: center;
+}
+@media only screen and (min-width: 50em) {
+  .nav__container {
+    justify-content: start;
+  }
 }
 .nav__logotype {
   text-transform: uppercase;
